@@ -1,4 +1,4 @@
-import { BuscarUser } from "./UserModel";
+import { BuscarUser } from "../model/UserModel";
 
 export class UserController {
 

@@ -1,6 +1,6 @@
 import express, {Request, Response } from "express"
-import admin from "./src/firebase/auth-firebase"
-import { UserController } from "./UserController"
+import admin from "../firebase/auth-firebase"
+import { UserController } from "../controller/UserController"
 
 const router = express.Router()
 

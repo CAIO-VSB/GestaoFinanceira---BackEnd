@@ -2,7 +2,7 @@ import express, {Request, Response} from "express";
 import cors from "cors";
 import loginGoolgeRoutes from "./routes/loginGoolgeRoutes"; 
 import createUserRoutes from "./routes/createUserRotes"
-import searchUserRoutes from "../searchUserRotes"
+import searchUserRoutes from "./routes/searchUserRotes"
 
 
 const app = express();
